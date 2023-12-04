@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+.menu-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  margin: 20px;
+  font-size: 30px;
+  border-bottom: 2px solid green;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px;
+}
+
+.category-btn {
+  padding: 10px;
+  border: 1.5px solid green;
+  border-radius: 12px;
+  background: orange;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+.category-btn:hover {
+  background-color: black;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.menu-item {
+  width: 350px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-price {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: white;
+  color: green;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.menu-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.menu-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+}
+
+.menu-title {
+  color: orangered;
+}
